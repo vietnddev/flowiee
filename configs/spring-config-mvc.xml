@@ -1,0 +1,52 @@
+﻿<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	   		http://www.springframework.org/schema/beans/spring-beans.xsd
+	   		http://www.springframework.org/schema/context
+	   		http://www.springframework.org/schema/context/spring-context.xsd
+	   		http://www.springframework.org/schema/tx 
+			http://www.springframework.org/schema/tx/spring-tx.xsd
+			http://www.springframework.org/schema/mvc 
+			http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+
+	<!-- Spring MVC Annotation -->
+	<mvc:default-servlet-handler />
+	<context:annotation-config />
+
+	<mvc:annotation-driven />
+	<mvc:resources location="/WEB-INF/views/**" mapping="**"></mvc:resources>
+
+	<!-- Cấu hình view -->
+	<bean id="viewResolver" p:prefix="/WEB-INF/views/" p:suffix=".jsp"
+		class="org.springframework.web.servlet.view.InternalResourceViewResolver" />
+
+	<!-- Cấu hình package chứa các controller -->
+	<context:component-scan
+		base-package="controller/**" />
+
+	<bean id="mailSender"
+		class="org.springframework.mail.javamail.JavaMailSenderImpl">
+		<property name="host" value="smtp.gmail.com" />
+		<property name="port" value="587" />
+		<property name="username"
+			value="nguyenducviet.vietnd@gmail.com" />
+		<property name="password" value="aizaleizldnwcatf" />
+		<property name="defaultEncoding" value="utf-8" />
+
+		<!-- The name of the property, following JavaBean naming conventions -->
+		<property name="javaMailProperties">
+			<props>
+				<prop key="mail.transport.protocol">smtp</prop>
+				<prop key="mail.smtp.auth">true</prop>
+				<prop key="mail.smtp.starttls.enable">true</prop>
+				<prop key="mail.debug">true</prop>
+			</props>
+		</property>
+	</bean>
+
+</beans>
