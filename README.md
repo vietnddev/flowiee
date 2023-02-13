@@ -1,6 +1,8 @@
 # flowiee
 
-Tài khoản demo: admin / 75277671
+Tài khoản demo đăng nhập https://flowiee.herokuapp.com
+Username: admin 
+Password: 75277671
 
 Flowiee là Web application được hình thành để hỗ trợ cho công việc quản lý cửa cửa thời trang của gia đình tôi trở nên thuận tiện hơn
 
