@@ -1,5 +1,7 @@
 # flowiee
 
+Tài khoản demo: admin / 75277671
+
 Flowiee là Web application được hình thành để hỗ trợ cho công việc quản lý cửa cửa thời trang của gia đình tôi trở nên thuận tiện hơn
 
 Một số module chức năng chính như quản lý sản phẩm, khách hàng, kho tài liệu,...
