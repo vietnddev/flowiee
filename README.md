@@ -13,6 +13,6 @@ Frontend: HTML, CSS, JavaScript, BootStrap,...
 Backend: Java, SpringMVC,...
 Databse: MySQL
 
-Hiện flowiee đang được clone ra một bản sử dụng spring boot, thymeleaf, jpa,... và được xây dựng trên mô hình chuẩn các class layer. Bản này sẽ được push lên sớm trong thời gian tới. 
+Hiện flowiee đang được clone ra một bản sử dụng spring boot, thymeleaf, jpa,... và đang được push dần lên. Tham khảo tại: https://github.com/vietnddev/The-Flowiee-Official.git
 
 Thanks.
