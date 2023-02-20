@@ -1,6 +1,6 @@
 # flowiee
 
-Tài khoản demo đăng nhập https://flowiee.herokuapp.com
+Tài khoản đăng nhập flowiee (bản demo) https://flowiee.herokuapp.com
 Username: admin 
 Password: 75277671
 
