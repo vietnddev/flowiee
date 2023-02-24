@@ -26,6 +26,6 @@ Các công nghệ được sử dụng:
 + Backend: Java, SpringMVC,...
 + Databse: MySQL
 
-Hiện flowiee đang được clone ra một bản sử dụng spring boot, thymeleaf, jpa,... và đang được push dần lên. Tham khảo tại: https://github.com/vietnddev/The-Flowiee-Official.git
+Hiện flowiee đang được clone ra một bản sử dụng Spring boot, Spring Data JPA, Thymeleaf,... và build lại giao diện mới, hiện đang được push dần lên. Tham khảo tại: https://github.com/vietnddev/The-Flowiee-Official.git
 
 Thanks.
