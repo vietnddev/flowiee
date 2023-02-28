@@ -10,7 +10,7 @@ Các công nghệ được sử dụng:
 + Databse: MySQL
 
 
-Hiện flowiee đang được clone ra một bản sử dụng Spring boot, Spring Data JPA, Thymeleaf,... và build lại giao diện mới. Tham khảo tại: https://github.com/vietnddev/The-Flowiee-Official.git
+Hiện flowiee đang được clone ra một bản sử dụng Spring boot, Spring Data JPA, Thymeleaf, xác thực với Spring Security,... và build lại giao diện mới. Tham khảo tại: https://github.com/vietnddev/The-Flowiee-Official.git
 
 Một số hình ảnh: https://docs.google.com/spreadsheets/d/1Ku6u5jyfKepht_Id9BqaCqvc24PjlIDM1DmzNX4AyRY/edit#gid=0
 
